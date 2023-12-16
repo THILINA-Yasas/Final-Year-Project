@@ -1,0 +1,127 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+}
+.home1 {
+  width: 70%;
+  height: 90%;
+}
+
+.hometxt {
+  width: 81%;
+  text-transform: uppercase;
+  color: #68edff;
+}
+
+.slide img {
+  width: 20vw;
+  height: 25vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.slide1 img {
+  width: 20vw;
+  height: 25vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.slide {
+  transform: scale(0.8);
+  transition: transform 300ms;
+  opacity: 0.1;
+}
+.slide1 {
+  transform: scale(0.8);
+  transition: transform 300ms;
+  opacity: 1;
+}
+.activeSlide {
+  transform: scale(1.2);
+  opacity: 2;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 5vw;
+  color: #68edff;
+  text-shadow: 0px 0px 5vw aqua;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 40%;
+}
+
+.prev {
+  left: 0%;
+  top: 40%;
+}
+
+.categories {
+  width: 100%;
+  height: 100%;
+}
+.categories0 {
+  width: 60%;
+  height: 7%;
+  color: white;
+  font-weight: 600;
+  margin-left: 7vw;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.categories1 {
+  width: 82%;
+  height: 92%;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin-left: 7vw;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ctgcd {
+  width: 28%;
+  height: 70%;
+  background-color: aliceblue;
+  border-radius: 1.5vw;
+  display: flex;
+  justify-content: center;
+}
+.ctgcd0 {
+  width: 17.2vw;
+  height: 17.2vw;
+  color: white;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 20vw;
+  margin-top: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
